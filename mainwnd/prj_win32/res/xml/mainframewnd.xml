@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="1000,600" caption="0,0,0,36" roundcorner="4,4" >
+	<VerticalLayout inset="4,0,4,4" bkcolor="#FFFFFFFF" >
+		<HorizontalLayout height="36" inset="0,0,0,0">
+			<Label text="play" textalign="left" />
+			<Button name="BtbClose" width="36" height="36" fourstatusimage="file='mainwnd_close_btn.png'" />
+		</HorizontalLayout>
+		<HorizontalLayout >
+			<ControlWnd name="PlayWnd">
+		
+			</ControlWnd>
+		</HorizontalLayout>
+    </VerticalLayout>
+</Window>
